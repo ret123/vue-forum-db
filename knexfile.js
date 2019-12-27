@@ -10,6 +10,10 @@ module.exports = {
       database: 'vue_forum'
     }
   },
+  production: {
+    client: 'pg',
+    connection: process.env.DATABASE_URL
+  }
 
 
 };
